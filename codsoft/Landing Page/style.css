@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background: #ee8666;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .logo a {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .btn-orange {
+    background: #f09605;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+  }
+  
+  .hero-section {
+    padding: 50px;
+  }
+  
+  .cta-btn {
+    background: white;
+    color: #ff5722;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .about-section,
+  .menu-section,
+  .testimonials,
+  .contact-section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .menu-cards,
+  .features,
+  .testimonial-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .menu-card,
+  .feature,
+  .testimonial-card {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
